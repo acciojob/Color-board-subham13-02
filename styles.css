@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+*{
+	display:flex;
+	flex-direction: column;
+	background-color:black;
+}
+section{
+	display:flex;
+	flex-direction: row;
+}
+div{
+	height:2vw;
+	width:4%;
+	border: 1px solid black;
+	background-color:grey;
+	transition-property:background-color;
+}
+div:hover{
+	background-color:blueviolet;
+	
+	transition-duration:1s;
+}
+
+
+
