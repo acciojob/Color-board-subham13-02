@@ -14,9 +14,21 @@ background:black
 }
 
 .square:hover {
-  background-color: red; /* Change to your desired hover color */
+  background-color: red; 
 }
 
 .square.hover-end {
   transition-delay: 1s;
+}
+@keyframes transitionBack {
+  0% {
+    background-color: red; /* Change to your desired hover color */
+  }
+  100% {
+    background-color: rgb(29, 29, 29); /* Set initial background color */
+  }
+}
+
+.square.transition-back {
+  animation: transitionBack 1s;
 }
